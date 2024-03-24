@@ -1,9 +1,9 @@
 import { useSelector } from "react-redux";
 import styles from "./App.module.css";
-import Box from "./components/Box";
-import { RootState } from "./store";
-import Header from "./components/Header";
-import Droppable from "./components/Droppable";
+import Box from "./Box";
+import { RootState } from "../store";
+import Header from "./Header";
+import Droppable from "./Droppable";
 import { useState } from "react";
 
 // import AccountComponent from "./features/accounts/AccountComponent";
