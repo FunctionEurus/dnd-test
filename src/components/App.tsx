@@ -18,7 +18,7 @@ function App() {
     // console.log(item);
     // console.log([...boxes]);
     setBoxes((boxes: { id: number; color: string }[]) => {
-      if (item.color in boxes.map((box) => box.color)) {
+      if (boxes.some((box) => box.color === item.color)) {
         return boxes;
       } else {
         return [...boxes, item];
